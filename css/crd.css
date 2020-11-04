@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+
+*{
+	margin:0;
+	padding: 0;
+}
+#header{
+	height:55px;
+	background-color: #ccc;
+	
+	
+	background-position: center;
+}
+.navbar-nav li a
+{
+	float: right;
+	color: #bbb;
+}
+.navbar-brand img{
+	width: 30%;
+	height: 40%;
+	margin-left: 30px;
+}
+.navbar-toggler{
+	border: none !important;
+	outline: none !important;
+}
+nav .fa-bars{
+	color: #fff!important;
+	font-size:26px;
+}
+.slider{
+	max-width: 1150px;
+	overflow: hidden;
+	display: flex;
+}
+.row-equal>div[class*='col-']{
+	display: flex;
+	flex: 1 0 auto;
+}
+.row-equal .card{width:100%;}
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev{
+	display: flex;
+}
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right{
+	opacity: 0.5;
+	display: flex;
+}
+.card-img-top-250{
+	max-height: 250px;
+	overflow: hidden;
+}
+.card-header{color:dodgerblue;}
+
+
